@@ -22,7 +22,7 @@ pipeline {
     
     stage('Deploying') {
       steps {
-        sh 'nodejs app.js'
+        sh 'node app.js'
       }
     }
   }
