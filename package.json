@@ -1,12 +1,12 @@
 {
-    "name": "demo",
+    "name": "node",
     "version": "1.0.0",
     "description": "",
     "main": "Japp.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node Japp.js",
-      "dev": "nodemon Japp.js"
+      "dev": "nodemon .\Japp.js"
     },
     "author": "",
     "license": "ISC",
