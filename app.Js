@@ -7,7 +7,7 @@ const app = express();
 // Handling GET request
 app.get('/', (req, res) => {
 	res.send('This is hosted on aws '
-		+ ' server By Hussain')
+		+ ' server By Yaser')
 	res.end()
 })
 
